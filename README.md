@@ -1,0 +1,3 @@
+This repository includes code for extracting top 50 restaurant and bar lists for Phildelphia over several years, taken from Foobooz.  Each restaurant and bar is associated with a rank for each year, and is classified by location, cuisine and pricing features.
+
+The goal is to use machine learning techniques to make predictions for future rankings and to determine whether there are any substructures to the data.
