@@ -1,51 +1,51 @@
-Rank	Restaurant	Neighborhood	Cuisine Category	Price
-1	Laurel	East Passyunk	American,French	 $$
-2	Fork	Old City	New American	 $$
-3	Vernick Food & Drink	Rittenhouse Square	American	 $$$
-4	Pumpkin	Graduate Hospital	New American	 $$
-5	Sbraga	Avenue of the Arts	New American	 $$$
-6	Vedge	Washington Square West	Vegetarian	 $$
-7	Townsend	East Passyunk	French	 $$
-8	Vetri	Center City East	Italian	 $$$$
-9	Serpico	South Street	American	 $$$
-10	Marigold Kitchen	University City	New American	 $$$
-11	Fitler Dining Room	Center City West	American	 $$$
-12	Cheu Noodle Bar	Washington Square West	Asian,Japanese	 $
-13	Zahav	Old City	Israeli	 $$$
-14	Will	East Passyunk	French	 $$
-15	Volver	Avenue of the Arts	American	 $$$$
-16	Bibou	Bella Vista	French	 $$
-17	Fond	East Passyunk	New American	 $$$
-18	Amis	Midtown Village	Italian	 $$$
-19	Zeppoli	South Jersey	Italian	 $$
-20	High Street on Market	Old City	American,Breakfast	 $$
-21	Le Virtu	East Passyunk	Italian	 $$
-22	Le Cheri	Rittenhouse Square	French	 $$$
-23	Fat Ham	University City	Southern	 $$
-24	Osteria	Fairmount	Italian	 $$$
-25	Abe Fisher	Center City West	Eastern European,Israeli,Jewish	 $$$
-26	The Farm and Fisherman	Washington Square West	New American	 $$
-27	Amada	Old City	Spanish	 $$$
-28	Talulas Garden	Center City East	New American	 $$$
-29	Talulas Daily	Washington Square West	American	 $$$
-30	Kanella	Center City East	Cypriot	 $$
-31	a.kitchen	Rittenhouse Square	American	 $$$
-32	Jamonera	Midtown Village	Spanish	 $$
-33	Pub and Kitchen	Graduate Hospital	Gastropub	 $$
-34	Il Pittore	Rittenhouse Square	Italian	 $$$
-35	Monsu	Bella Vista	Italian	 $$
-36	Alla Spina	Fairmount	Italian	 $$$
-37	Barclay Prime	Rittenhouse Square	Steakhouse	 $$$$
-38	Little Fish	Bella Vista	Seafood	 $$$
-39	Russet	Bella Vista	American,French,Italian	 $$$
-40	Barbuzzo	Midtown Village	Mediterranean	 $$$
-41	Petruce et al	Center City East	American	 $$$
-42	Ela	Queen Village	New American	 $$$
-43	South Philadelphia Tap Room	South Philadelphia	Gastropub	 $$
-44	Stateside	East Passyunk	American	 $$
-45	Pizzeria Stella	South Street	Pizza	 $$
-46	Sancho Pistolas	Fishtown	Beer,Mexican	 $$
-47	Brauhaus Schmitz	South Street	German	 $$
-48	Nomad Pizza	Bella Vista	Pizza	 $$
-49	Indeblue	Midtown Village	Indian	 $$
-50	Noord	East Passyunk	Dutch,Northern European	 $$$
+Rank	Restaurant	Neighborhood	Location	Cuisine Category	Price	BYOB
+1	Laurel	East Passyunk	(39.9294293, -75.16373399999999)	American,French	 $$	1
+2	Fork	Old City	(39.9500686, -75.1461769)	New American	 $$	1
+3	Vernick Food & Drink	Rittenhouse Square	(39.9509449, -75.17485599999999)	American	 $$$	1
+4	Pumpkin	Graduate Hospital	(39.9444342, -75.17079129999999)	New American	 $$	1
+5	Sbraga	Avenue of the Arts	(39.94532969999999, -75.16540890000002)	New American	 $$$	1
+6	Vedge	Washington Square West	(39.94804, -75.16140299999999)	Vegetarian	 $$	1
+7	Townsend	East Passyunk	(39.929374, -75.1638426)	French	 $$	0
+8	Vetri	Center City East	(39.94659300000001, -75.163197)	Italian	 $$$$	0
+9	Serpico	South Street	(39.941882, -75.1526011)	American	 $$$	0
+10	Marigold Kitchen	University City	(39.9501204, -75.2123812)	New American	 $$$	1
+11	Fitler Dining Room	Center City West	(39.9487817, -75.1779669)	American	 $$$	0
+12	Cheu Noodle Bar	Washington Square West	(39.9467586, -75.1575938)	Asian,Japanese	 $	0
+13	Zahav	Old City	(39.9462397, -75.1452637)	Israeli	 $$$	0
+14	Will	East Passyunk	(39.92627299999999, -75.167451)	French	 $$	1
+15	Volver	Avenue of the Arts	(39.9471774, -75.166465)	American	 $$$$	0
+16	Bibou	Bella Vista	(39.936855, -75.156492)	French	 $$	1
+17	Fond	East Passyunk	(39.9294293, -75.16373399999999)	New American	 $$$	1
+18	Amis	Midtown Village	(39.9447981, -75.1632582)	Italian	 $$$	1
+19	Zeppoli	South Jersey	(39.9106888, -75.0844336)	Italian	 $$	1
+20	High Street on Market	Old City	(39.950025, -75.14626090000002)	American,Breakfast	 $$	1
+21	Le Virtu	East Passyunk	(39.925982, -75.16771899999999)	Italian	 $$	1
+22	Le Cheri	Rittenhouse Square	(39.948237, -75.170793)	French	 $$$	0
+23	Fat Ham	University City	(39.9524388, -75.1873387)	Southern	 $$	0
+24	Osteria	Fairmount	(39.9649815, -75.16113519999999)	Italian	 $$$	0
+25	Abe Fisher	Center City West	(39.9507479, -75.1681511)	Eastern European,Israeli,Jewish	 $$$	0
+26	The Farm and Fisherman	Washington Square West	(39.9449342, -75.1606695)	New American	 $$	1
+27	Amada	Old City	(39.9486795, -75.14472339999999)	Spanish	 $$$	1
+28	Talulas Garden	Center City East	(39.9472602, -75.1535347)	New American	 $$$	1
+29	Talulas Daily	Washington Square West	(39.9472602, -75.1535347)	American	 $$$	1
+30	Kanella	Center City East	(39.94633220000001, -75.1579478)	Cypriot	 $$	1
+31	a.kitchen	Rittenhouse Square	(39.9503916, -75.1704008)	American	 $$$	0
+32	Jamonera	Midtown Village	(39.9504002, -75.1616684)	Spanish	 $$	0
+33	Pub and Kitchen	Graduate Hospital	(39.9456566, -75.1747555)	Gastropub	 $$	0
+34	Il Pittore	Rittenhouse Square	(39.9516, -75.174548)	Italian	 $$$	0
+35	Monsu	Bella Vista	(39.9391504, -75.15791519999999)	Italian	 $$	1
+36	Alla Spina	Fairmount	(39.9641014, -75.1616243)	Italian	 $$$	1
+37	Barclay Prime	Rittenhouse Square	(39.9486558, -75.1707729)	Steakhouse	 $$$$	1
+38	Little Fish	Bella Vista	(39.9399778, -75.1529098)	Seafood	 $$$	1
+39	Russet	Bella Vista	(39.9476346, -75.1672947)	American,French,Italian	 $$$	1
+40	Barbuzzo	Midtown Village	(39.950007, -75.1621577)	Mediterranean	 $$$	1
+41	Petruce et al	Center City East	(39.9489189, -75.1599845)	American	 $$$	0
+42	Ela	Queen Village	(39.9406135, -75.14754839999999)	New American	 $$$	0
+43	South Philadelphia Tap Room	South Philadelphia	(39.927273, -75.171461)	Gastropub	 $$	0
+44	Stateside	East Passyunk	(39.930254, -75.1632549)	American	 $$	0
+45	Pizzeria Stella	South Street	(39.9423823, -75.1457392)	Pizza	 $$	0
+46	Sancho Pistolas	Fishtown	(39.9689101, -75.13515579999999)	Beer,Mexican	 $$	0
+47	Brauhaus Schmitz	South Street	(39.94220079999999, -75.15454439999999)	German	 $$	0
+48	Nomad Pizza	Bella Vista	(39.9418368, -75.1538396)	Pizza	 $$	0
+49	Indeblue	Midtown Village	(39.9485389, -75.1620259)	Indian	 $$	0
+50	Noord	East Passyunk	(39.9296209, -75.16300629999999)	Dutch,Northern European	 $$$	1

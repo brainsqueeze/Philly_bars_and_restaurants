@@ -3,6 +3,7 @@ from urllib2 import urlopen
 from datetime import date
 import sys
 import csv
+from pygeocoder import Geocoder
 
 base_url = ('http://www.phillymag.com/foobooz/food-drink-guides/')
 
@@ -17,7 +18,7 @@ def GetLinks():
 
 def MakeRestLists():
     url = GetLinks()[0]
-    field = ('Rank', 'Restaurant', 'Neighborhood', 'Cuisine Category', 'Price')
+    field = ('Rank', 'Restaurant', 'Neighborhood', 'Location', 'Cuisine Category', 'Price', 'BYOB')
 
     cat = url.split('/')[-2] # Gets category title
     f = open('Lists/%s_%s.tsv' % (cat, date.today().year - 1), 'wb')
@@ -53,12 +54,24 @@ def MakeRestLists():
                         cuisineList.append(item.contents[0])
                     cuisine = ','.join(cuisineList)
 
+                for item in x.find_all('b'):
+                    if len(item.contents[0].split(':')) == 1:
+                        Address = Geocoder.geocode(item.contents[0])[0].coordinates
+                   
+                    
                 for item in x.find_all('li'):
                     if len(item.contents) == 2:
                         if '$' in item.contents[1]:
                             price = item.contents[1]
+                    if len(item.contents) == 3:
+                        if 'Alcohol' in item.contents[1].contents[0].split(':')[0]:
+                            if 'BYOB' in item.contents[2].split(',')[0]:
+                                BYOB = 1
+                            else:
+                                BYOB = 0
+                    
                                         
-            output.writerow([rank, restaurant.encode('ascii', 'ignore'), neighborhood, cuisine, price])
+            output.writerow([rank, restaurant.encode('ascii', 'ignore'), neighborhood, Address, cuisine, price, BYOB])
             rank += 1
     f.close()
 
@@ -66,7 +79,7 @@ def MakeRestLists():
 
 def MakeOldRestLists():
     url = 'http://www.phillymag.com/foobooz/2012/12/26/the-philadelphia-magazine-50-best-restaurants-for-2012/'
-    field = ('Rank', 'Restaurant', 'Neighborhood', 'Cuisine Category', 'Price')
+    field = ('Rank', 'Restaurant', 'Neighborhood', 'Location', 'Cuisine Category', 'Price', 'BYOB')
 
     f = open('Lists/50-best-restaurants_2012.tsv', 'wb')
     output = csv.writer(f, delimiter = '\t')
@@ -103,12 +116,24 @@ def MakeOldRestLists():
                         cuisineList.append(item.contents[0])
                     cuisine = ','.join(cuisineList)
 
+                for item in x.find_all('b'):
+                    if len(item.contents[0].split(':')) == 1:
+                        Address = Geocoder.geocode(item.contents[0])[0].coordinates
+
+                BYOB = 0
                 for item in x.find_all('li'):
                     if len(item.contents) == 2:
                         if '$' in item.contents[1]:
                             price = item.contents[1]
-                   
-            output.writerow([rank, restaurant.encode('ascii', 'ignore'), neighborhood, cuisine, price])
+
+                    if len(item.contents) == 3:
+                        if 'Alcohol' in item.contents[1].contents[0].split(':')[0]:
+                            if 'BYOB' in item.contents[2].split(',')[0]:
+                                BYOB += 1
+                            else:
+                                BYOB = 0
+                                                            
+            output.writerow([rank, restaurant.encode('ascii', 'ignore'), neighborhood, Address, cuisine, price, BYOB])
             rank += 1         
     f.close()
 
@@ -116,7 +141,7 @@ def MakeOldRestLists():
 
 def MakeBarLists():
     url = GetLinks()[1]
-    field = ('Rank', 'Bar', 'Neighborhood', 'Cuisine Category', 'Price')
+    field = ('Rank', 'Bar', 'Neighborhood', 'Address', 'Cuisine Category', 'Price')
 
     cat = url.split('/')[-2] # Gets category title
     f = open('Lists/%s_%s.tsv' % (cat, date.today().year - 1), 'wb')
@@ -140,13 +165,18 @@ def MakeBarLists():
                     if 'cuisine' in item['href'].split('/'):
                         cuisineList.append(item.contents[0])
                     cuisine = ','.join(cuisineList)
+
+                for item in x.find_all('b'):
+                    if len(item.contents[0].split(':')) == 1:
+                        Address = Geocoder.geocode(item.contents[0])[0].coordinates
+
                 
                 for item in x.find_all('li'):
                     if len(item.contents) == 2:
                         if '$' in item.contents[1]:
                             price = item.contents[1]
             
-            output.writerow([rank, Bar.encode('ascii', 'ignore'), neighborhood, cuisine, price])
+            output.writerow([rank, Bar.encode('ascii', 'ignore'), neighborhood, Address, cuisine, price])
             rank += 1
     f.close()
 

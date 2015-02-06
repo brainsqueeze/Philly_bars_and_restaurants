@@ -1,50 +1,50 @@
-Rank	Restaurant	Neighborhood	Cuisine Category	Price
-1	Stateside	East Passyunk	American	 $$
-2	Marigold Kitchen	University City	New American	 $$$
-3	Vedge	Washington Square West	Vegetarian	 $$
-4	The Farm and Fisherman	Washington Square West	New American	 $$
-5	Le Virtu	East Passyunk	Italian	 $$
-6	Sbraga	Avenue of the Arts	New American	 $$$
-7	Fond	East Passyunk	New American	 $$$
-8	Amis	Midtown Village	Italian	 $$$
-9	Vetri	Center City East	Italian	 $$$$
-10	Bibou	Bella Vista	French	 $$
-11	Blackfish	Montgomery County	New American	 $$$
-12	Brauhaus Schmitz	South Street	German	 $$
-13	Osteria	Fairmount	Italian	 $$$
-14	Zahav	Old City	Israeli	 $$$
-15	Vernick Food & Drink	Rittenhouse Square	American	 $$$
-16	Will	East Passyunk	French	 $$
-17	Fork Restaurant	Old City	New American	 $$
-18	Zeppoli	South Jersey	Italian	 $$
-19	Han Dynasty	Montgomery County	Chinese	 $$
-20	Fountain Restaurant	Center City West	New American	 $$$$
-21	Amada	Old City	Spanish	 $$$
-22	Dandelion	Rittenhouse Square	Gastropub	 $$$
-23	Tashan	Avenue of the Arts	Indian	 $$$
-24	Little Fish	Bella Vista	Seafood	 $$$
-25	JG Domestic	University City	American	 $$$$
-26	Le Bec Fin	Center City West	French	 $$$$
-27	Zama	Rittenhouse Square	Sushi	 $$$
-28	Jamonera	Midtown Village	Spanish	 $$
-29	Il Pittore	Rittenhouse Square	Italian	 $$$
-30	Alla Spina	Fairmount	Italian	 $$$
-31	Pub & Kitchen	Graduate Hospital	Gastropub	 $$
-32	Pumpkin	Graduate Hospital	New American	 $$
-33	Barbuzzo	Midtown Village	Mediterranean	 $$$
-34	Kanella	Center City East	Cypriot	 $$
-35	Sovana Bistro	Chester County	New American	 $$
-36	Bistro 7	Old City	New American	 $$$
-37	Nectar	Main Line	Asian	 $$$
-38	Bistrot La Minette	Queen Village	French	 $$$
-39	Oyster House	Center City West	Seafood	 $$$
-40	Butcher & Singer	Center City West	Steakhouse	 $$$$
-41	Lacroix	Rittenhouse Square	French	 $$$$
-42	Standard Tap	Northern Liberties	Gastropub	 $$
-43	Matyson	Center City West	New American	 $$
-45	Percy Street Barbecue	South Street	Barbecue,Southern	 $$
-46	Federal Donuts	Pennsport	Comfort Food	 $$
-47	Supper	South Street	New American	 $$$
-48	Mica	Chestnut Hill	New American	 $$$
-49	Talulas Garden	Center City East	New American	 $$$
-50	Parc	Rittenhouse Square	French	 $$
+Rank	Restaurant	Neighborhood	Location	Cuisine Category	Price	BYOB
+1	Stateside	East Passyunk	(39.930254, -75.1632549)	American	 $$	0
+2	Marigold Kitchen	University City	(39.9501204, -75.2123812)	New American	 $$$	1
+3	Vedge	Washington Square West	(39.94804, -75.16140299999999)	Vegetarian	 $$	0
+4	The Farm and Fisherman	Washington Square West	(39.9449342, -75.1606695)	New American	 $$	1
+5	Le Virtu	East Passyunk	(39.925982, -75.16771899999999)	Italian	 $$	0
+6	Sbraga	Avenue of the Arts	(39.94532969999999, -75.16540890000002)	New American	 $$$	0
+7	Fond	East Passyunk	(39.9294293, -75.16373399999999)	New American	 $$$	0
+8	Amis	Midtown Village	(39.9447981, -75.1632582)	Italian	 $$$	0
+9	Vetri	Center City East	(39.94659300000001, -75.163197)	Italian	 $$$$	0
+10	Bibou	Bella Vista	(39.936855, -75.156492)	French	 $$	1
+11	Blackfish	Montgomery County	(40.0743137, -75.3055964)	New American	 $$$	1
+12	Brauhaus Schmitz	South Street	(39.94220079999999, -75.15454439999999)	German	 $$	0
+13	Osteria	Fairmount	(39.9649815, -75.16113519999999)	Italian	 $$$	0
+14	Zahav	Old City	(39.9462397, -75.1452637)	Israeli	 $$$	0
+15	Vernick Food & Drink	Rittenhouse Square	(39.9509449, -75.17485599999999)	American	 $$$	0
+16	Will	East Passyunk	(39.92627299999999, -75.167451)	French	 $$	1
+17	Fork Restaurant	Old City	(39.9500686, -75.1461769)	New American	 $$	0
+18	Zeppoli	South Jersey	(39.9106888, -75.0844336)	Italian	 $$	1
+19	Han Dynasty	Montgomery County	(40.1981658, -75.5241715)	Chinese	 $$	0
+20	Fountain Restaurant	Center City West	(39.9567043, -75.1697047)	New American	 $$$$	0
+21	Amada	Old City	(39.9486795, -75.14472339999999)	Spanish	 $$$	0
+22	Dandelion	Rittenhouse Square	(39.951004, -75.170705)	Gastropub	 $$$	0
+23	Tashan	Avenue of the Arts	(39.9411431, -75.1655878)	Indian	 $$$	0
+24	Little Fish	Bella Vista	(39.9399778, -75.1529098)	Seafood	 $$$	1
+25	JG Domestic	University City	(39.9577767, -75.1823661)	American	 $$$$	0
+26	Le Bec Fin	Center City West	(39.949919, -75.166996)	French	 $$$$	0
+27	Zama	Rittenhouse Square	(39.950897, -75.1724)	Sushi	 $$$	0
+28	Jamonera	Midtown Village	(39.9504002, -75.1616684)	Spanish	 $$	0
+29	Il Pittore	Rittenhouse Square	(39.9535825, -75.1919571)	Italian	 $$$	0
+30	Alla Spina	Fairmount	(39.9641014, -75.1616243)	Italian	 $$$	0
+31	Pub & Kitchen	Graduate Hospital	(39.9456566, -75.1747555)	Gastropub	 $$	0
+32	Pumpkin	Graduate Hospital	(39.9444342, -75.17079129999999)	New American	 $$	1
+33	Barbuzzo	Midtown Village	(39.950007, -75.1621577)	Mediterranean	 $$$	0
+34	Kanella	Center City East	(39.94633220000001, -75.1579478)	Cypriot	 $$	1
+35	Sovana Bistro	Chester County	(39.87374210000001, -75.7174357)	New American	 $$	0
+36	Bistro 7	Old City	(39.9505744, -75.1454639)	New American	 $$$	1
+37	Nectar	Main Line	(40.0441799, -75.4501662)	Asian	 $$$	0
+38	Bistrot La Minette	Queen Village	(39.9412937, -75.15223089999999)	French	 $$$	0
+39	Oyster House	Center City West	(39.950221, -75.166583)	Seafood	 $$$	0
+40	Butcher & Singer	Center City West	(39.9494166, -75.1661366)	Steakhouse	 $$$$	0
+41	Lacroix	Rittenhouse Square	(39.9499767, -75.17302409999999)	French	 $$$$	0
+42	Standard Tap	Northern Liberties	(39.9641556, -75.1404483)	Gastropub	 $$	0
+43	Matyson	Center City West	(39.952354, -75.1714977)	New American	 $$	1
+45	Percy Street Barbecue	South Street	(39.94258490000001, -75.1570964)	Barbecue,Southern	 $$	0
+46	Federal Donuts	Pennsport	(39.9321712, -75.1474747)	Comfort Food	 $$	1
+47	Supper	South Street	(39.942549, -75.157978)	New American	 $$$	0
+48	Mica	Chestnut Hill	(40.0769365, -75.2075907)	New American	 $$$	0
+49	Talulas Garden	Center City East	(39.9472602, -75.1535347)	New American	 $$$	0
+50	Parc	Rittenhouse Square	(39.9492121, -75.17060579999999)	French	 $$	0

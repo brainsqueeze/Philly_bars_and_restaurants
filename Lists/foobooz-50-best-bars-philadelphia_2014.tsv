@@ -1,51 +1,51 @@
-Rank	Bar	Neighborhood	Cuisine Category	Price
-1	Pub & Kitchen	Graduate Hospital	Gastropub	 $$
-2	American Sardine Bar	South Philadelphia	Gastropub	 $$
-3	The Industry	Pennsport	Bar	 $$
-4	South Philadelphia Tap Room	South Philadelphia	Gastropub	 $$
-5	Hop Sing Laundromat	Chinatown	Bar	 $$
-6	Khyber Pass Pub	Old City	Gastropub	 $$
-7	Jos Pistolas	Center City West	Mexican	 $$
-8	A.Bar	Rittenhouse Square	Bar	 $$$
-9	The Good King Tavern	South Street	Bar,French	 $$$
-10	Johnny Brendas	Fishtown	Gastropub	 $$
-11	Sancho Pistolas	Fishtown	Beer,Mexican	 $$
-12	Standard Tap	Northern Liberties	Gastropub	 $$
-13	Frankford Hall	Fishtown	Beer	 $$
-14	Memphis Taproom	Kensington	Gastropub	 $$
-15	Devils Den	East Passyunk	Gastropub	 $$
-16	Brauhaus Schmitz	South Street	German	 $$
-17	Southwark	Queen Village	New American	 $$
-18	Royal Tavern	Bella Vista	Gastropub	 $$
-19	Garage	East Passyunk	Bar	 $$
-20	Kraftwork	Northern Liberties	Gastropub	 $$
-21	Tria Cafe	Washington Square West	Wine Bar	 $$
-22	Doobies	Graduate Hospital	Bar	 $$
-23	Bob & Barbaras	South Street	Bar	 $$
-24	Grace Tavern	Graduate Hospital	Gastropub	 $$
-25	Prohibition Taproom	Poplar	Gastropub	 $$
-26	Boot & Saddle	Poplar	Bar	 $$
-27	Petruce et al.	Center City East	American	 $$
-28	Percy Street Barbecue	South Street	Barbecue,Southern	 $$
-29	Ranstead Room	Center City West	Bar	 $$$
-30	Good Dog Bar	Center City West	Gastropub	 $$
-31	Oscars	Center City East	Bar	 $$
-32	Townsend	East Passyunk	French	 $$
-33	Tria Taproom	Rittenhouse Square	Beer,Cheese,Pizza	 $$
-34	Fountain Porter	East Passyunk	Bar	 $$
-35	MilkBoy	Washington Square West	Bar,Breakfast & Brunch,Night Club	 $$
-36	Volvr	Avenue of the Arts	American	 $$$$
-37	Emmanuelle	Northern Liberties	Bar	 $$
-38	Loco Pez	Fishtown	Bar,Mexican	 $$
-39	Dandelion	Rittenhouse Square	Gastropub	 $$$
-40	McMenamins	Mt. Airy	Bar	 $$
-41	Monks Cafe	Center City West	Belgian	 $$
-42	Stateside	East Passyunk	American	 $$
-43	Jerrys Bar	Northern Liberties	American	 $$
-44	Sidecar Bar & Grille	Graduate Hospital	Gastropub	 $$
-45	City Tap House	West Philadelphia	American,Beer	 $$
-46	Grey Lodge	Northeast Philadelphia	Bar	 $$
-47	Varga Bar	Washington Square West	Gastropub	 $$
-48	Barcade	Fishtown	Bar	 $$
-49	Pub on Passyunk East	East Passyunk	Bar	 $$
-50	Strangeloves	Washington Square West	Beer,Southern	 $$
+Rank	Bar	Neighborhood	Address	Cuisine Category	Price
+1	Pub & Kitchen	Graduate Hospital	(39.9456566, -75.1747555)	Gastropub	 $$
+2	American Sardine Bar	South Philadelphia	(39.93659359999999, -75.17374099999999)	Gastropub	 $$
+3	The Industry	Pennsport	(39.9303951, -75.14955619999999)	Bar	 $$
+4	South Philadelphia Tap Room	South Philadelphia	(39.927273, -75.171461)	Gastropub	 $$
+5	Hop Sing Laundromat	Chinatown	(39.955516, -75.1569554)	Bar	 $$
+6	Khyber Pass Pub	Old City	(39.948634, -75.144205)	Gastropub	 $$
+7	Jos Pistolas	Center City West	(39.9476605, -75.1661535)	Mexican	 $$
+8	A.Bar	Rittenhouse Square	(39.9503916, -75.1704008)	Bar	 $$$
+9	The Good King Tavern	South Street	(39.941738, -75.154264)	Bar,French	 $$$
+10	Johnny Brendas	Fishtown	(39.9690899, -75.1343255)	Gastropub	 $$
+11	Sancho Pistolas	Fishtown	(39.9689101, -75.13515579999999)	Beer,Mexican	 $$
+12	Standard Tap	Northern Liberties	(39.9641556, -75.1404483)	Gastropub	 $$
+13	Frankford Hall	Fishtown	(39.969199, -75.13472)	Beer	 $$
+14	Memphis Taproom	Kensington	(39.9803689, -75.1230145)	Gastropub	 $$
+15	Devils Den	East Passyunk	(39.935811, -75.162064)	Gastropub	 $$
+16	Brauhaus Schmitz	South Street	(39.94220079999999, -75.15454439999999)	German	 $$
+17	Southwark	Queen Village	(39.940451, -75.149249)	New American	 $$
+18	Royal Tavern	Bella Vista	(39.93697, -75.154471)	Gastropub	 $$
+19	Garage	East Passyunk	(39.933432, -75.158631)	Bar	 $$
+20	Kraftwork	Northern Liberties	(39.9715167, -75.12735099999999)	Gastropub	 $$
+21	Tria Cafe	Washington Square West	(39.9466238, -75.1609139)	Wine Bar	 $$
+22	Doobies	Graduate Hospital	(39.946437, -75.17846999999999)	Bar	 $$
+23	Bob & Barbaras	South Street	(39.94405, -75.167537)	Bar	 $$
+24	Grace Tavern	Graduate Hospital	(39.9450163, -75.17959979999999)	Gastropub	 $$
+25	Prohibition Taproom	Poplar	(39.961306, -75.15927900000001)	Gastropub	 $$
+26	Boot & Saddle	Poplar	(39.936833, -75.166567)	Bar	 $$
+27	Petruce et al.	Center City East	(39.9489189, -75.1599845)	American	 $$
+28	Percy Street Barbecue	South Street	(39.94258490000001, -75.1570964)	Barbecue,Southern	 $$
+29	Ranstead Room	Center City West	(39.9522506, -75.1740289)	Bar	 $$$
+30	Good Dog Bar	Center City West	(39.9487809, -75.16632)	Gastropub	 $$
+31	Oscars	Center City East	(39.950249, -75.16681)	Bar	 $$
+32	Townsend	East Passyunk	(39.929374, -75.1638426)	French	 $$
+33	Tria Taproom	Rittenhouse Square	(39.9507959, -75.1739906)	Beer,Cheese,Pizza	 $$
+34	Fountain Porter	East Passyunk	(39.9294725, -75.16134079999999)	Bar	 $$
+35	MilkBoy	Washington Square West	(39.950002, -75.158802)	Bar,Breakfast & Brunch,Night Club	 $$
+36	Volvr	Avenue of the Arts	(39.9471774, -75.166465)	American	 $$$$
+37	Emmanuelle	Northern Liberties	(39.9664832, -75.13871139999999)	Bar	 $$
+38	Loco Pez	Fishtown	(39.97685329999999, -75.1270637)	Bar,Mexican	 $$
+39	Dandelion	Rittenhouse Square	(39.951004, -75.170705)	Gastropub	 $$$
+40	McMenamins	Mt. Airy	(40.0597269, -75.1909396)	Bar	 $$
+41	Monks Cafe	Center City West	(39.947714, -75.1683092)	Belgian	 $$
+42	Stateside	East Passyunk	(39.930254, -75.1632549)	American	 $$
+43	Jerrys Bar	Northern Liberties	(39.9651094, -75.1389069)	American	 $$
+44	Sidecar Bar & Grille	Graduate Hospital	(39.9418413, -75.1794896)	Gastropub	 $$
+45	City Tap House	West Philadelphia	(39.954141, -75.20177079999999)	American,Beer	 $$
+46	Grey Lodge	Northeast Philadelphia	(40.027412, -75.061218)	Bar	 $$
+47	Varga Bar	Washington Square West	(39.9461989, -75.1577714)	Gastropub	 $$
+48	Barcade	Fishtown	(39.9674516, -75.13462520000002)	Bar	 $$
+49	Pub on Passyunk East	East Passyunk	(39.9308264, -75.1620015)	Bar	 $$
+50	Strangeloves	Washington Square West	(39.9480983, -75.1592326)	Beer,Southern	 $$
